@@ -1,0 +1,21 @@
+{
+  "labor_rate": "45.00",
+  "markup": "0.20",
+  "tax_rate": "0.0825",
+  "min_charge": "75.00",
+  "max_quantity": "100000",
+  "services": {
+    "sod": {"unit": "sqft", "material": "0.55", "labor_hours": "0.010",
+            "en": "Sod installation", "es": "Instalación de césped en rollo"},
+    "mulch": {"unit": "cubic yard", "material": "38.00", "labor_hours": "0.60",
+              "en": "Mulch spreading", "es": "Colocación de mantillo (mulch)"},
+    "pavers": {"unit": "sqft", "material": "6.50", "labor_hours": "0.12",
+               "en": "Paver patio", "es": "Patio de adoquines"},
+    "tree_trim": {"unit": "tree", "material": "0.00", "labor_hours": "2.50",
+                  "en": "Tree trimming", "es": "Poda de árboles"},
+    "mowing": {"unit": "sqft", "material": "0.00", "labor_hours": "0.0004",
+               "en": "Lawn mowing", "es": "Corte de césped"},
+    "sprinkler_repair": {"unit": "hour", "material": "12.00", "labor_hours": "1.00",
+                         "en": "Sprinkler repair", "es": "Reparación de aspersores"}
+  }
+}
